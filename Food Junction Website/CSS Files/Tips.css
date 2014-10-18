@@ -1,0 +1,87 @@
+﻿#accordion b
+{
+border-radius:43px 43px 43px 43px;
+color:Green;
+}
+#title
+{
+font-size:9vw; color:OrangeRed; text-align:center;
+}
+body
+{
+width:100%;    
+margin:0;
+padding:0;
+background-image:url("http://rayeesasindiankitchen.com/wp-content/themes/rayeesa/images/background.jpg");
+}
+#body-content 
+{
+/*border:5px solid yellow;*/
+width: 80%;
+margin:0 auto;
+background:white;
+padding:5px;
+}
+#content
+{
+width: 80%;
+padding: 2%;
+margin-top: inherit;
+margin-left: auto;
+margin-right: auto;
+background: #fff;
+-border-radius: 10px;
+box-shadow: 10px 10px 5px #BDBDBD;
+-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+position: relative;
+font-family:'content';
+font-size:100%;
+color: brown;
+background:#efefef url('http://i.imgur.com/E0hA3bG.png');
+}
+/* Header Style Begins */
+ul.master_navigation
+{
+font-size: 3.2vh;
+font-weight: bold;
+text-align: center;
+list-style: none;
+margin: 0.5em 0;
+padding: 0;
+}
+ul.master_navigation li
+{
+display: inline-block;
+padding: 0 0.5%;
+}
+a
+{
+color: #08f;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover
+{
+border:2px solid #ddffff;
+border-radius:25px;
+background:white;
+width:auto;
+}
+.rounded
+{
+border:2px solid #a1a1a1; 
+background:black;
+width:100%;
+border-radius:25px;
+}
+/* Header Style Ends */
+/* Footer Style */
+.wrap-footer{width:100%; background:#efefef url('http://i.imgur.com/E0hA3bG.png'); ; height:inherit;}
+footer {width:100%; color:black; font-size:3.0vh; padding:1%; text-align:center;}
+/* Footer Style Ends */

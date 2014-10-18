@@ -1,0 +1,156 @@
+﻿#outersection
+{
+background-color:Gray;
+text-align:center;
+color:white;
+font-family:@GulimChe;
+font-size:xx-large;
+}
+@-webkit-keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+@keyframes blinker { from {opacity:1.0;} to {opacity:0.0;} }
+#click
+{
+padding-top:10px;
+text-decoration:blink;
+-webkit-animation-name:blinker;
+animation-name:blinker;  
+-webkit-animation-iteration-count:infinite;  
+animation-iteration-count:infinite;  
+-webkit-animation-timing-function:cubic-bezier(1.0,0,0,1.0);
+animation-timing-function:cubic-bezier(1.0,0,0,1.0);
+-webkit-animation-duration:1s; 
+animation-duration:1s; 
+}
+#section1
+{
+vertical-align:middle;
+}
+img.center 
+{
+border:5px solid black;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/* Actual HomePage CSS */
+#title
+{
+font-size:9vw; color:OrangeRed; text-align:center;
+} 
+#quote
+{
+color: #d2b48c;
+font-family:Tangerine;
+font-size:400%;
+text-align:center;
+}
+#text
+{
+color: #CD5C5C;
+font-family:'Calibri';
+font-size:180%;
+text-align:center;
+line-height:80%;
+}
+#slideshow
+{
+position: relative;
+margin-left: 14.5%;
+max-width: 70%;
+height: 60%;
+}
+#slideshow img
+{
+border:14px solid #a1a1a1;
+position: absolute;
+display: none;
+width: 100%;
+height:100%;
+margin-top: 5px;
+border-radius:25px;
+-webkit-border-image:url("../../images/border.png") 60 60 stretch; /* Safari 5 */
+-o-border-image:url("../../images/border.png") 60 60 stretch; /* Opera 10.5-12.1 */
+border-image:url("../../images/border.png") 30 30 stretch;
+}
+#slideshow img.active
+{
+display: block;
+}      
+body
+{
+width:100%;    
+margin:0;
+padding:0;
+background-image:url("http://rayeesasindiankitchen.com/wp-content/themes/rayeesa/images/background.jpg");
+}
+#body-content 
+{
+/*border:5px solid yellow;*/
+width: 80%;
+margin:0 auto;
+background:white;
+padding:5px;
+}
+#content
+{
+width: 80%;
+padding: 2%;
+margin-top: inherit;
+margin-left: auto;
+margin-right: auto;
+background: #fff;
+-border-radius: 10px;
+box-shadow: 10px 10px 5px #BDBDBD;
+-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+-webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+position: relative;
+font-family:'content';
+font-size:100%;
+color: 'brown';
+background:#efefef url('http://i.imgur.com/E0hA3bG.png');
+}
+/* Header Style Begins */
+ul.master_navigation
+{
+font-size: 3.2vh;
+font-weight: bold;
+text-align: center;
+list-style: none;
+margin: 0.5em 0;
+padding: 0;
+}
+ul.master_navigation li
+{
+display: inline-block;
+padding: 0 0.5%;
+}
+a
+{
+color: #08f;
+font-weight: bold;
+text-decoration: none;
+}
+a:hover
+{
+border:2px solid #ddffff;
+border-radius:25px;
+background:white;
+width:auto;
+}
+.rounded
+{
+border:2px solid #a1a1a1; 
+background:black;
+width:100%;
+border-radius:25px;
+}
+/* Header Style Ends */
+/* Footer Style */
+.wrap-footer{width:100%; background:#efefef url('http://i.imgur.com/E0hA3bG.png'); ; height:inherit;}
+footer {width:100%; color:black; font-size:3.0vh; padding:1%; text-align:center;}
+/* Footer Style Ends */

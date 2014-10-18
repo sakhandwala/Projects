@@ -1,0 +1,152 @@
+﻿
+@import url('http://fonts.googleapis.com/css?family=Milonga');
+body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("http://rayeesasindiankitchen.com/wp-content/themes/rayeesa/images/background.jpg");
+}
+
+#title
+{
+    font-size: 9vw;
+    color: OrangeRed;
+    text-align: center;
+}
+
+#body-content
+{
+    /*border:5px solid yellow;*/
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+}
+
+/* Start of Display Properties of Recipes */
+#name_div, #type_div, #time_div, #ingredients_div, #steps_div, #calories_div
+{
+    font-size: 3.0vh;
+    font-family: Sans-Serif;
+    color: black;
+    font-weight: 650;
+    text-align: justify;
+}
+
+
+
+.photo
+{
+    height: 50%;
+    width: 50%;
+    
+}
+
+/* End of Display Properties of Recipes */
+
+
+h1
+{
+    display: block;
+    font-family: 'Milonga';
+    color: #595a6a;
+    font-size: 4.2em;
+    margin-bottom: 5px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+p
+{
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-bottom: 8px;
+    color: #767676;
+}
+
+
+#content
+{
+    text-align: center;
+    width: 80%;
+    padding: 2%;
+    margin-top: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    -border-radius: 10px;
+    box-shadow: 10px 10px 5px #BDBDBD;
+    -box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -khtml-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    position: relative;
+    font-family: 'content';
+    font-size: 100%;
+    color: brown;
+    background: #efefef url('http://i.imgur.com/E0hA3bG.png');
+}
+
+/* Header Style Begins */
+ul.master_navigation
+{
+    font-size: 3.2vh;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+ul.master_navigation li
+{
+    display: inline-block;
+    padding: 0 0.5%;
+}
+
+a
+{
+    color: #08f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover
+{
+    border: 2px solid #ddffff;
+    border-radius: 25px;
+    background: white;
+    width: auto;
+}
+.rounded
+{
+    border: 2px solid #a1a1a1;
+    background: black;
+    width: 100%;
+    border-radius: 25px;
+}
+/* Header Style Ends */
+
+/* Footer Style */
+.wrap-footer
+{
+    width: 100%;
+    background: #efefef url('http://i.imgur.com/E0hA3bG.png');
+    height: inherit;
+}
+footer
+{
+    width: 100%;
+    color: black;
+    font-size: 2.7vh;
+    padding: 1%;
+    text-align: center;
+}
+
+/* Footer Style Ends */
+
